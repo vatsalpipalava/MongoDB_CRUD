@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://vatsalpipalava:vatsal0669@todocluster.j82xxkq.mongodb.net/todoDB?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<username>:<password>@todocluster.j82xxkq.mongodb.net/<DatabaseName>?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
