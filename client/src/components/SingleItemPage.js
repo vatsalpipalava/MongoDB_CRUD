@@ -41,5 +41,3 @@ const SingleItemPage = () => {
 };
 
 export default SingleItemPage;
-
-// visualViewport
